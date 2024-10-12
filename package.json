@@ -29,12 +29,7 @@
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react": "^7.37.1",
     "express": "^4.21.1",
-    "nestjs": "^0.0.1",
     "prettier": "^3.3.3",
-    "reflect-metadata": "^0.2.2",
-    "rxjs": "^7.8.1",
-    "serve-index": "^1.9.1",
-    "tsyringe": "^4.8.0",
     "venom-bot": "^5.1.0"
   }
 }

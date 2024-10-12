@@ -15,7 +15,7 @@ export default class VenomService {
           this.qrCode = base64Qr;
         },
         undefined,
-        { logQR: false }
+        { logQR: true }
       )
       .then(client => {
         this.client = client;
@@ -32,7 +32,7 @@ export default class VenomService {
       throw new Error('Venom client not initialized');
     }
 
-    await this.client.sendText(to, message);
+    await this.client.sendText(`${to}@c.us`, message);
   }
 
   public getQrCode(): string | undefined {
