@@ -46,8 +46,7 @@ Este é um projeto de exemplo que demonstra como utilizar a biblioteca `venom-bo
 
 ## Rotas Básicas {#rotas-básicas}
 
-1. **(POST)/send-message**
-     <br/>
+1. **(POST)/send-message** <br/>
     Para enviar uma mensagem simples, utilize o seguinte comando:
     Exemplo body:
      ```bash
@@ -55,6 +54,9 @@ Este é um projeto de exemplo que demonstra como utilizar a biblioteca `venom-bo
     "to": "554399999999",
     "message": "Hello World!"
     }  
-3. **(GET)/qrcode**
-  <br/>
+3. **(GET)/qrcode**<br/>
    Para obter o QR code e conectar-se externamente
+
+##Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um issue ou enviar um pull request.
