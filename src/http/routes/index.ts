@@ -23,5 +23,3 @@ routes.get('/qrcode', async (request: Request, response: Response) => {
 });
 
 export default routes;
-
-//teste
